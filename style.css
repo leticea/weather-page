@@ -206,3 +206,37 @@ h2.title {
   height: 10.8rem;
   overflow: hidden;
 }
+
+.chart::before {
+  content: "";
+  width: 21rem;
+  height: 21rem;
+  display: block;
+  border-radius: 50%;
+  background: linear-gradient(
+    180deg,
+    rgba(251, 219, 96, 0.2) 0%,
+    rgba(251, 219, 96, 0) 101.89%
+  );
+
+  --mask: linear-gradient(0deg, white 50%, transparent 0%);
+  mask: var(--mask);
+  -webkit-mask: var(--mask);
+  rotate: calc(1.825deg * var(--pos-x));
+}
+
+.chart img {
+  position: absolute;
+  top: 0;
+  left: -1%;
+}
+
+time.now {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%);
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
