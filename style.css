@@ -167,3 +167,42 @@ h2.title {
   color: #87ebcd;
   font-size: 1.4rem;
 }
+
+.air-quality .info small {
+  font-size: 1.2rem;
+  color: #e7e6fb;
+}
+
+/* Sun Time */
+.sun-chart-wrapper {
+  margin-top: 4rem;
+  height: 11rem;
+}
+
+.sun-chart {
+  --pos-x: 75;
+  margin: auto;
+  width: 21.6rem;
+  height: 21.6rem;
+  position: relative;
+}
+
+.sun-chart::before {
+  content: "";
+  width: 1.2rem;
+  height: 1.2rem;
+  position: absolute;
+  background: #f6c833;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  margin: -0.6rem;
+  transform: rotate(calc(1deg * (((100 - var(--pos-x)) / -100) * 180)))
+    translate(10.6rem);
+}
+
+.chart {
+  width: 21.6rem;
+  height: 10.8rem;
+  overflow: hidden;
+}
