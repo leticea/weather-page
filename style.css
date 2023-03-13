@@ -54,3 +54,16 @@ section {
   align-items: center;
   gap: 0.4rem;
 }
+
+.location strong {
+  font-size: 1.4rem;
+  color: #c2bff4;
+}
+
+.temp {
+  margin: 6rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  gap: 0.4rem;
+}
