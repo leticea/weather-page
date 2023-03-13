@@ -67,3 +67,20 @@ section {
   justify-content: center;
   gap: 0.4rem;
 }
+
+.temp .number {
+  text-align: center;
+  font-size: 8.8rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.temp .number .maxmin {
+  font-size: 2rem;
+}
+
+.temp .number .maxmin span {
+  color: #c2bff4;
+}
