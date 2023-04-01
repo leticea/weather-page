@@ -92,6 +92,12 @@ Projetos #boraCodar da [Rocketseat](https://boracodar.dev/).
       <td>22/03/23</td>
       <td><a href="https://github.com/leticea/login-screen">🔗</a></td>
     </tr>
+    <tr>
+      <td>12</td>
+      <td>Kanban Interface</td>
+      <td>29/03/23</td>
+      <td><a href="https://github.com/leticea/kanban-interface">🔗</a></td>
+    </tr>
   </tbody>
 </table>
 
